@@ -1,0 +1,186 @@
+#ophead{
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(163, 162, 162);
+    background-image: linear-gradient(to bottom right,red,blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr{
+    width: 10em;
+    height: 2px;
+    margin: auto;
+    background-color: rgb(84, 6, 173);
+}
+
+button{
+    border-radius: 5%;
+    background-color: white;
+    font-size: 20px;
+    padding: 12px 28px;
+    display: inline-block;
+}
+
+button.left{
+    margin-left: 32%;
+}
+
+button.left:hover{
+    border-top-left-radius: 30%;
+    background: linear-gradient(to top right,darkblue,red);
+    opacity: 0.5;
+}
+
+button.right:hover{
+    border-top-right-radius: 30%;
+    background: linear-gradient(to top left,darkblue,red);
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+button.left:active{
+    border-bottom-right-radius: 30%;
+    background: linear-gradient(to top right,darkblue,red);
+    opacity: unset;
+}
+
+button.right:active{
+    border-bottom-left-radius: 30%;
+    background: linear-gradient(to top left,darkblue,red);
+    opacity: unset;
+}
+
+*{
+    margin: 0;
+    padding: 0%
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    margin-left: 150px;
+    font-size: 2rem;
+    color:white !important; 
+    font-family: 'Big Shoulders Display', cursive;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav{
+    padding: 0 20px;
+   
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #007bff;
+
+}
+
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+
+.navbar{
+    
+    padding: 12px;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+
+.nav-link{
+    color: white!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pad ul li{
+    padding: 10px;
+    padding-right: 35px;
+}
+
+
+.nav-disp{
+    background-color:  #ab5499;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+#navbarNav ul li a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+   
+    
+}
+
+#navbarNav ul li a{
+    position: relative;
+    font-size: 18px;
+    color: white;
+}
+
+/* Cards */
+.card-img-top {
+    width: 100%;
+    min-height: 15vw;
+    object-fit: cover;
+}
+.card{
+    margin-bottom:50px;
+}
+
+
+
+#footer{
+    float: right;
+    /* background-image: linear-gradient(rgb(0,0,0),rgb(0,0,0)),url(footer.jpg); */
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer h2{
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+
+#footer span{
+    color: #efefef;
+    padding-left: 10px;
+}
+
+.social a{
+    padding:20px ;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#footer{
+    background-color: #00000050;
+}
